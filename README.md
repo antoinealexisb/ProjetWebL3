@@ -62,7 +62,7 @@ _*Ce code de sécurité*_ et généré **aléatoirement** et increment de **1** 
 
 (Dans certains cas, une association binaire avec des cardinalité (1, 1) pour les deux entité est inutile, par exemple: secuJ1, secuJ2, nbJ1, nbJ2)
 
-Voici le schéma de la base de données :
+Voici le schéma de la base de données (ceci est une version temporaire) :
 ![Le plan de jeu.](img/shema.png)
 
 
