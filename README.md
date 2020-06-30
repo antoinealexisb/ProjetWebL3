@@ -70,7 +70,7 @@ Voici le schéma de la base de données (ceci est une version temporaire) :
 ![Elephant](img/siam/50.jpg)
 ![Rhinoceros](img/siam/60.jpg)
 ![rocher](img/siam/callou.jpg)
-![push](img/push.jpg)
+![push](img/siam/push.jpg)
 ![logo](img/logo.jpg)
 
 
