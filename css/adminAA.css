@@ -1,0 +1,99 @@
+/*!
+ *   adminAA v1.0.0
+ *   Author: Antoine-Alexis Bourdon
+ *   License: Open source - MIT
+!*/
+
+
+/* Partie pour la classe logo */
+.main-header .logo {
+	-webkit-transition: width .3s ease-in-out;
+	-o-transition: width .3s ease-in-out;
+	transition: width .3s ease-in-out;
+	display: block;
+	float: left;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	width: 230px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0 15px;
+	font-weight: 300;
+	overflow: hidden;
+	background: #367fa9;
+	color: white
+}
+
+/*Administration */
+.main-header .logo .logo-lg {
+	display: block
+}
+
+/*PA c'est pour Panel Administration*/
+.main-header .logo .logo-mini {
+	display: none
+}
+
+
+/*ICI*/
+
+.main-header .sidebar-toggle {
+	float: left;
+	padding: 15px 15px;
+	font-family: fontAwesome/*il s'agit d'une police pour faire des icones (la police est dans le dossier font de l'admin pour le moment)*/
+}
+
+.main-header .sidebar-toggle:before { /* on choisit l'icone des 3 traits */
+	content: "\f0c9";
+	color: white
+}
+
+.main-header .sidebar-toggle:hover {
+	color: white
+}
+
+.main-header>.navbar {
+	-webkit-transition: margin-left .3s ease-in-out;
+	-o-transition: margin-left .3s ease-in-out;
+	transition: margin-left .3s ease-in-out;
+	margin-bottom: 0;
+	margin-left: 230px;
+	border: none;
+	min-height: 50px;
+	border-radius: 0;
+	background-color: #3d6882;
+}
+
+/*ICO*/
+
+
+
+/*Met la partie notifs, pseudo et deco à droite */
+.main-header .navbar-custom-menu{
+	float: right
+}
+
+
+@media (max-width:991px) {/*en dessous de cette taille les couleurs changes pour la notif, pseudo et deconnexion ;)*/
+	.main-header .navbar-custom-menu a{
+		background: transparent
+	}
+	.navbar-custom-menu .navbar-nav>li {
+		float: left
+	}
+}
+
+
+@media (max-width:767px) {
+	.main-header .logo,
+	.main-header .navbar {
+		width: 100%;
+		float: none
+	}
+	.main-header .navbar {
+		margin: 0
+	}
+}
+
+

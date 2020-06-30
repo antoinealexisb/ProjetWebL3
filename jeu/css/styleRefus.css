@@ -1,0 +1,56 @@
+body {
+    background: #A40202;
+    background: -moz-radial-gradient(center,#A40202 0%,#F72316 100%);
+    background: -webkit-radial-gradient(center,#A40202 0%,#F72316 100%);
+    background: radial-gradient(ellipse at center,#A40202 0%,#F72316 100%);
+}
+
+#contenair {
+    width: 700px;
+    margin:0 auto;
+    margin-top: 10%;
+}
+
+/* type de bordure pour le formulaire et mise en forme  */
+form {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    /* box-shadow -> right , Down, Spread, Blur, Opaciy  */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+#contenair h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* pour les entrer */
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* style pour tout les boutons */
+input[type=submit] {
+    background-color: #53af57;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/* version cacher */
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}

@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	color: green;
+}
+hr{
+	color: black;	
+}
+
+h2{
+	text-align: center;
+	color: green;
+}
+
+
+#rajoute,#PartieEnCour{
+	border: 8px groove rgba(28,110,164,0.34);
+}
+
+tr,td {
+	border: 8px groove rgba(28,100,150,0,34);
+	width: 100%;
+}
