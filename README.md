@@ -20,7 +20,7 @@ Pour les choix techniques l'application sera divisée en 3 parties:
 
 Les règles du jeu sont décrites dans ce [pdf](http://regle.jeuxsoc.fr/siam__rg.pdf).
 
-## Comptes
+## Comptes  
 | Pseudo         | MDP            | Admin         | Validé |banni|
 |----------------|----------------|---------------|--------|-----|
 |`admin`         |`1234`          | oui           | oui    | non |
