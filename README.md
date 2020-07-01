@@ -20,6 +20,16 @@ Pour les choix techniques l'application sera divisée en 3 parties:
 
 Les règles du jeu sont décrites dans ce [pdf](http://regle.jeuxsoc.fr/siam__rg.pdf).
 
+## Comptes
+| Pseudo         | MDP            | Admin         | Validé |banni|
+|----------------|----------------|---------------|--------|-----|
+|`admin`         |`1234`          | oui           | oui    | non |
+|`compte5`       |`1234`          | oui           | oui    | non |
+|`compte2`       |`1234`          | non           | oui    | non |
+|`compte4`       |`1234`          | non           | non    | non |
+|`compte3`       |`1234`          | non           | non    | non |
+|`testban`       |`1234`          | non           | oui    | oui |
+
 ## L'architecture choisie
 
 Concernant le jeu nous sommes sur une architecture MVC (Modèle-Vue-Contrôleur).
